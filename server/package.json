@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "puppeteer.js microservice for signing in and scraping instagram",
+  "main": "./src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "node",
+    "puppeteer",
+    "webscraping"
+  ],
+  "author": "bleek42",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^5.3.1"
+  }
+}
