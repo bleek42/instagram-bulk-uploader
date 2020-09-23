@@ -2,10 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "description": "puppeteer.js microservice for signing in and scraping instagram",
-  "main": "./src/index.js",
+  "main": "app.js",
   "type": "commonjs",
   "scripts": {
-    "test": "test"
+    "dev": "nodemon src/app.js"
   },
   "keywords": [
     "node",
@@ -18,7 +18,7 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "express-fileuploader": "0.0.7",
+    "express-fileupload": "^1.2.0",
     "helmet": "^4.1.1",
     "puppeteer": "^5.3.1"
   },

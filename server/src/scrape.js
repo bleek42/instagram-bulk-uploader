@@ -1,4 +1,4 @@
-require('dotenv').config();;
+const { NODE_ENV } = require('./config');
 const puppeteer = require('puppeteer');
 
 
@@ -22,4 +22,4 @@ const scrape = async url => {
 
 };
 
-scrape(process.env.URL);
+module.exports = scrape;
